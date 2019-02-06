@@ -1,0 +1,6 @@
+node_modules/
+docs/
+
+.project
+.sublime-gulp.cache
+.yarn-error.log
