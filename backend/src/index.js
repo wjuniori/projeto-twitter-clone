@@ -9,8 +9,7 @@ const io = require('socket.io')(server);
 
 mongoose.connect('mongodb://<dbuser>:<dbpassword>@ds121415.mlab.com:21415/<dbname>', {
   useNewUrlParser: true
-}
-);
+});
 
 app.use((req, res, next) => {
   req.io = io;
